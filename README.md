@@ -2,6 +2,7 @@
 ## Ang Kok Beng is attending class on 22 Feb 2024
 ### Step 1
 $ npm install -g serverless
+
 npm WARN deprecated querystring@0.2.1: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
 npm WARN deprecated querystring@0.2.0: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
 npm WARN deprecated querystring@0.2.0: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
