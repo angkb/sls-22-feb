@@ -108,3 +108,11 @@ message: "Helllo AKB ==> THIS IS OUR HTTP RESPONSE" [index.js]
 
 ## to correct change sync messages
 Helllo AKB ==> THIS IS OUR HTTP RESPONSE
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.422 s, estimated 1 s
+Ran all test suites.
+
+# Step 6
