@@ -129,3 +129,5 @@ Removing sls-22-feb-akb from stage dev (ap-southeast-1)
 # Using main.yml for CICD using Github action
 -Ensure setting secret and access in GitHub Action in target repo
 -Once Git Push it will auto deploy main.yml and provision in AWS resources
+
+---The End---
