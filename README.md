@@ -100,3 +100,11 @@ $ npm install jest --save-dev
 $ npm install -g jest
 
 ## create index.test.js
+
+## run jest
+Failed message due to diff index.js vs index.test.js output message
+message: "THIS IS OUR HTTP RESPONSE" [index.test.js]
+message: "Helllo AKB ==> THIS IS OUR HTTP RESPONSE" [index.js]
+
+## to correct change sync messages
+Helllo AKB ==> THIS IS OUR HTTP RESPONSE
