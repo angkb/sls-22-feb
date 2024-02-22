@@ -97,5 +97,6 @@ Run offline and will gives: GET  | POST links
 
 # Step 5
 $ npm install jest --save-dev
+$ npm install -g jest
 
 ## create index.test.js
