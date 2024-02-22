@@ -63,8 +63,25 @@ Is this OK? (yes) yes
 ### Step 4
 create serverless.yml
 
+service: sls-22-feb
+frameworkVersion: 3
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+
+===============
 create index.js
 ---------
 Note: yml strict formating 
 ---------
-serverless
+
+
+
+# serverless
+
+## npm install serverless
+
+## npm install serverless-offline --save-dev
+
+
