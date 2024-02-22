@@ -85,3 +85,9 @@ Note: yml strict formating
 ## npm install serverless-offline --save-dev
 
 
+## sls offline start
+Run offline and will gives: GET  | POST links
+
+### Display {
+    "message": "Helllo AKB ==> THIS IS OUR HTTP RESPONSE"
+} 
