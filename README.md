@@ -77,6 +77,7 @@ Note: yml strict formating
 ---------
 
 
+### Step 4
 
 # serverless
 
@@ -91,3 +92,10 @@ Run offline and will gives: GET  | POST links
 ### Display {
     "message": "Helllo AKB ==> THIS IS OUR HTTP RESPONSE"
 } 
+
+### severless deploy
+
+# Step 5
+$ npm install jest --save-dev
+
+## create index.test.js

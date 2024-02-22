@@ -1,4 +1,4 @@
-service: sls-22-feb
+service: sls-22-feb-akb
 frameworkVersion: '3'
 
 provider:
@@ -16,3 +16,11 @@ functions:
 
 plugins:
   - serverless-offline
+
+
+package:
+  individually: true
+  exclude:
+    - .git/**
+    - node_modules/**
+    - .venv/**
