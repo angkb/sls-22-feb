@@ -115,4 +115,13 @@ Snapshots:   0 total
 Time:        0.422 s, estimated 1 s
 Ran all test suites.
 
-# Step 6
+# Step 6 - sls remove 
+$ sls remove
+Running "serverless" from node_modules
+Removing sls-22-feb-akb from stage dev (ap-southeast-1)
+
+✔ Service sls-22-feb-akb has been successfully removed (26s)
+
+1 deprecation found: run 'serverless doctor' for more details
+
+#
