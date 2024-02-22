@@ -95,7 +95,7 @@ Run offline and will gives: GET  | POST links
 
 ### severless deploy
 
-# Step 5
+### Step 5
 $ npm install jest --save-dev
 $ npm install -g jest
 
@@ -115,7 +115,7 @@ Snapshots:   0 total
 Time:        0.422 s, estimated 1 s
 Ran all test suites.
 
-# Step 6 - sls remove to delete manual install from laptop
+### Step 6 - sls remove to delete manual install from laptop
 $ sls remove
 Running "serverless" from node_modules
 Removing sls-22-feb-akb from stage dev (ap-southeast-1)
@@ -128,4 +128,4 @@ Removing sls-22-feb-akb from stage dev (ap-southeast-1)
 
 # Using main.yml for CICD using Github action
 -Ensure setting secret and access in GitHub Action in target repo
--Once GitPush it will auto deploy main.yml and provision in AWS resources
+-Once Git Push it will auto deploy main.yml and provision in AWS resources
