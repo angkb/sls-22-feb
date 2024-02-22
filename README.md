@@ -115,13 +115,17 @@ Snapshots:   0 total
 Time:        0.422 s, estimated 1 s
 Ran all test suites.
 
-# Step 6 - sls remove 
+# Step 6 - sls remove to delete manual install from laptop
 $ sls remove
 Running "serverless" from node_modules
 Removing sls-22-feb-akb from stage dev (ap-southeast-1)
 
 ✔ Service sls-22-feb-akb has been successfully removed (26s)
 
-1 deprecation found: run 'serverless doctor' for more details
+1 deprecation found: run 'serverless doctor' for more details 
 
-#
+---------
+
+# Using main.yml for CICD using Github action
+-Ensure setting secret and access in GitHub Action in target repo
+-Once GitPush it will auto deploy main.yml and provision in AWS resources
